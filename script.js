@@ -44,15 +44,17 @@ const rollDiceBtn = document.querySelector('.btn--roll');
 // Hold button: .btn--hold
 const holdBtn = document.querySelector('.btn--hold');
 
-let dice;
-let currentPlayer = 0;
-// console.log(currentPlayer, typeof currentPlayer);
+// let dice;
+// let currentPlayer = 0;
+// // console.log(currentPlayer, typeof currentPlayer);
 
-// Reset all scores to 0
-let scores = [0, 0];
-let currents = [0, 0];
+// // Reset all scores to 0
+// let scores = [0, 0];
+// let currents = [0, 0];
 
-let gameOn = false;
+// let gameOn = false;
+
+let dice, currentPlayer, scores, currents, gameOn;
 
 const resetGame = function () {
   currentPlayer = 0;
