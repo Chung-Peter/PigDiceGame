@@ -136,6 +136,4 @@ holdBtn.addEventListener('click', function () {
   }
 });
 
-newGameBtn.addEventListener('click', function () {
-  resetGame();
-});
+newGameBtn.addEventListener('click', resetGame);
